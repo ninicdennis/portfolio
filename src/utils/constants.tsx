@@ -3,7 +3,7 @@ import {
 	SiCss3,
 	SiReact,
 	SiTailwindcss,
-	SiMaterialui,
+	SiMui,
 	SiNextdotjs,
 	SiJavascript,
 	SiTypescript,
@@ -39,7 +39,7 @@ export const FE_STACK_DATA = [
 		text: 'Tailwind-css',
 	},
 	{
-		icon: <SiMaterialui className='fill-secondary' size={64} />,
+		icon: <SiMui className='fill-secondary' size={64} />,
 		text: 'MUI',
 	},
 	{
@@ -97,12 +97,13 @@ export const PROJECTS = [
 		github: 'https://github.com/ninicdennis/project-car',
 	},
 	{
-		key: 'comingSoon1',
-		title: 'Coming Soon!',
-		image: '',
-		description: 'More Projects Coming Soon!',
-		enabled: false,
-		github: 'https://github.com/ninicdennis/',
+		key: 'nextjsTemplate',
+		title: 'NextJS Frontend Template',
+		image: '/FETemplate.png',
+		description:
+			'This template is what I like to use whenever I have an inspiration for a project to get things going! This already has my preffered linter settings, packages, and tools to get me ready to write real code! Also includes branch for implementation with Supabase/Prisma!',
+		enabled: true,
+		github: 'https://github.com/ninicdennis/next-template',
 	},
 	{
 		key: 'comingSoon2',
