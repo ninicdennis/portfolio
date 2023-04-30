@@ -14,7 +14,14 @@ const Home = () => {
 		<div>
 			<div className='hero min-h-screen bg-base-200'>
 				<div className='hero-content flex-col lg:flex-row'>
-					<Image alt='me!' src='/myuglyface.jpeg' width={350} height={300} className='rounded-lg shadow-2xl' />
+					<Image
+						alt='me!'
+						src='/myuglyface.jpeg'
+						width={350}
+						height={300}
+						className='rounded-lg shadow-2xl'
+						priority
+					/>
 					<div>
 						<h1 className='text-5xl font-bold'>Hello there,</h1>
 						<p className='py-6'>
